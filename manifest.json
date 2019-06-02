@@ -1,0 +1,32 @@
+{
+  "name": "KeyTabber",
+  "version": "1.0",
+  "description": "Pressing Tab key only switch between most used links.",
+  "manifest_version": 2,
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/KeyTabberIcon16.png",
+    "48": "assets/KeyTabberIcon48.png",
+    "128": "assets/KeyTabberIcon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["contentScriptYoutube.js"],
+      "css": ["style.css"]
+    },
+    {
+      "matches": ["https://*.reddit.com/*"],
+      "js": ["contentScriptReddit.js"],
+      "css": ["style.css"]
+    },
+    {
+      "matches": ["https://*.google.com/*"],
+      "js": ["contentScriptGoogle.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
