@@ -11,7 +11,7 @@ function eventFire(el, etype) {
 }
 var ytd_browse;
 //loading direct to watch?v=... don't have ytd-browse
-if (window.location.href == "https://www.youtube.com/") {
+if (document.getElementById("show-more-button")) {
   eventFire(document.getElementById("show-more-button"), "click");
 }
 
@@ -19,7 +19,7 @@ var aElemets;
 var i = -1;
 
 document.addEventListener("yt-navigate-finish", function(event) {
-  if (window.location.href == "https://www.youtube.com/") {
+  if (document.getElementById("show-more-button")) {
     eventFire(document.getElementById("show-more-button"), "click");
   }
   removeClass();
