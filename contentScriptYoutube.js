@@ -33,14 +33,9 @@ function logKey(e) {
   if (e.which == 9) {
     e.preventDefault();
 
-    var part;
-    if (document.querySelector("ytd-browse[role='main']")) {
-      part = document.querySelector("ytd-browse[role='main']");
-    } else {
-      part = document.querySelector("ytd-watch-flexy");
-    }
-
-    aElemets = part.querySelectorAll("[id='video-title']");
+    aElemets = document
+      .querySelector("[role='main']")
+      .querySelectorAll("[id='video-title']");
     removeClass();
     if (e.shiftKey) {
       i--;
