@@ -6,14 +6,17 @@ Pressing Tab key only switch between most used links
 
 Extension is not yet publishet to Google extension store or Firefox one. Only way to install it is through source code.
 
-1.  Download source code
-    ![](assetsREADME/downloadZip.jpg)
+1.  Download source code as ZIP and extract it
+
+![](assetsREADME/downloadZip.jpg)
 
 #### Google chrome
 
 2.  copy: **chrome://extensions/** and paste it in search bar
 3.  enable developer mode
-    ![](assetsREADME/developerModeGoogleChrome.jpg)
+
+![](assetsREADME/developerModeGoogleChrome.jpg)
+
 4.  click button **Load unpacked** and select folder containing source code
     ![](assetsREADME/loadUnpacked.jpg)
 
@@ -33,25 +36,25 @@ Move to previous link: <kbd>Shift</kbd>+<kbd>Tab</kbd>
 #### Google
 
 Before enabling extension:
-![](assetsREADME/googleoff.gif)
+![](assetsREADME/googleOff.gif)
 After enabling extension:
-![](assetsREADME/googleon.gif)
+![](assetsREADME/googleOn.gif)
 
 #### YouTube
 
 Automatically expand more recommended videos.
 
 Before enabling extension:
-![](assetsREADME/youtubeoff.gif)
+![](assetsREADME/youtubeOff.gif)
 After enabling extension:
-![](assetsREADME/youtubeon.gif)
+![](assetsREADME/youtubeOn.gif)
 
 #### Reddit
 
 Before enabling extension:
-![](assetsREADME/redditoff.gif)
+![](assetsREADME/redditOff.gif)
 After enabling extension:
-![](assetsREADME/redditon.gif)
+![](assetsREADME/redditOn.gif)
 
 ### License
 
