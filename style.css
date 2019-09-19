@@ -1,4 +1,5 @@
 .boxshadow {
   /*box-shadow: 0 0 3px 2pt blue;*/
   outline: 1px solid blue;
+  margin: 1px;
 }
