@@ -7,8 +7,8 @@ document.addEventListener("keydown", logKey);
 function logKey(e) {
   if (e.which == 9) {
     e.preventDefault();
-    aElemets = document.querySelectorAll("[class='LC20lb']");
-
+    aElemets = document.querySelectorAll("[class='r']");
+    console.log(aElemets);
     removeClass();
     if (e.shiftKey) {
       i--;
@@ -22,13 +22,13 @@ function logKey(e) {
       }
     }
 
-    aElemets[i].closest("a").focus();
-    aElemets[i].closest("a").classList.add("boxshadow");
+    aElemets[i].querySelector("a").focus();
+    aElemets[i].querySelector("a").classList.add("boxshadow");
   }
 }
 
 function removeClass() {
   try {
-    aElemets[i].closest("a").classList.remove("boxshadow");
-  } catch (e) {}
+    aElemets[i].querySelector("a").classList.remove("boxshadow");
+  } catch (e) { }
 }
